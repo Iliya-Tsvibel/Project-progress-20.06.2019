@@ -1,0 +1,6 @@
+C:\Users\itsvibel\source\repos\Flights Management System\Flights Management System\bin\Debug\Flights Management System.dll
+C:\Users\itsvibel\source\repos\Flights Management System\Flights Management System\bin\Debug\Flights Management System.pdb
+C:\Users\itsvibel\source\repos\Flights Management System\Flights Management System\obj\Debug\Flights Management System.csprojAssemblyReference.cache
+C:\Users\itsvibel\source\repos\Flights Management System\Flights Management System\obj\Debug\Flights Management System.csproj.CoreCompileInputs.cache
+C:\Users\itsvibel\source\repos\Flights Management System\Flights Management System\obj\Debug\Flights Management System.dll
+C:\Users\itsvibel\source\repos\Flights Management System\Flights Management System\obj\Debug\Flights Management System.pdb
