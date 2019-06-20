@@ -24,11 +24,11 @@ namespace Flights_Management_System
 
 
 
-            while ((administrator.ID != 0 && airlineCompany.ID == 0) || (administrator.ID != 0 && customer.ID == 0) || (airlineCompany.ID != 0 && customer.ID == 0) || (administrator.ID != 0 && airlineCompany.ID == 0 && customer.ID == 0))
+            while ((administrator.ID == 0 && airlineCompany.ID == 0) || (administrator.ID == 0 && customer.ID == 0) || (airlineCompany.ID == 0 && customer.ID == 0) || (administrator.ID != 0 && airlineCompany.ID == 0 && customer.ID == 0))
             {
                 throw new InvalidNameValueException("Please, contact to administrator");
             }
-            while ((administrator.ID != 0 && administrator.ID == airlineCompany.ID) && (administrator.ID != 0 && administrator.ID == customer.ID))
+            while ((administrator.ID == 0 && administrator.ID == airlineCompany.ID) && (administrator.ID == 0 && administrator.ID == customer.ID))
             {
                 throw new UserNotExistException("This User not exist. Create new user.");
             }
@@ -37,7 +37,7 @@ namespace Flights_Management_System
                 TryAdminLogin(username, password, out LoginToken<Administrator> token);
                 return;
             }
-            while (airlineCompany.ID != 0)
+            while (airlineCompany.ID == 0)
             {
                 TryAirlineLogin(username, password, out LoginToken<AirlineCompany> token);
                 return;
